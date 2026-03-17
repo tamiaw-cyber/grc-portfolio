@@ -113,7 +113,7 @@ Continuous Monitoring    │ FISMA     │ Endpoint Security   │ Identity & Ac
 
 | Planned Assessment | Frameworks | Status |
 |-------------------|------------|--------|
-| 02 — Network Merger & Secure Design Plan | NIST SP 800-53, HIPAA, GDPR, Defense-in-Depth | ✅ Complete |
+| 02 — Network Merger & Secure Design Plan | NIST SP 800-53, HIPAA, GDPR, Defense-in-Depth | ✅ Complete|
 | 03 — Vendor Risk Assessment | NIST SP 800-161, SOC 2 | 📋 Planned |
 | 04 — Security Awareness Policy | NIST SP 800-50, CIS Control 14 | 📋 Planned |
 
