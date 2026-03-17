@@ -15,7 +15,7 @@ This repository showcases hands-on GRC work demonstrating my ability to assess, 
 
 I hold a background in **Cybersecurity and Information Assurance** and am actively pursuing roles in GRC, risk management, compliance, and security governance.
 
-📧 Connect with me on [LinkedIn](www.linkedin.com/in/tamia-williams-b92304232) *(add your link)*
+📧 Connect with me on [LinkedIn](www.linkedin.com/in/tamia-williams-b92304232)
 
 ---
 
