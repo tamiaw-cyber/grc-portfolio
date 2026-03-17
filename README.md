@@ -19,7 +19,7 @@ I hold a background in **Cybersecurity and Information Assurance** and am active
 
 > *All scenarios in this portfolio are based on simulated organizations for portfolio demonstration purposes. No real organizational data is represented.*
 
-📧 Connect with me on [LinkedIn](#) *(add your link)*
+📧 Connect with me on [LinkedIn](www.linkedin.com/in/tamia-williams-b92304232)
 
 ---
 
