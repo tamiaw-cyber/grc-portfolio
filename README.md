@@ -1,21 +1,22 @@
 # 🔐 GRC Portfolio — Tamia Williams
 
-> Governance, Risk & Compliance | Cybersecurity & Information Assurance
+> Governance, Risk & Compliance | Cybersecurity & Information Assurance | AI Governance
 
 [![Frameworks](https://img.shields.io/badge/NIST%20SP%20800--53-Rev.%205-1B3A5C?style=flat-square)](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 [![Frameworks](https://img.shields.io/badge/PCI%20DSS-v4.0-2C5F8A?style=flat-square)](https://www.pcisecuritystandards.org/)
 [![Frameworks](https://img.shields.io/badge/FISMA-Compliant%20Controls-1E7B34?style=flat-square)](https://www.cisa.gov/federal-information-security-modernization-act)
-[![Frameworks](https://img.shields.io/badge/CIS%20Controls-v8-D35400?style=flat-square)](https://www.cisecurity.org/controls)
-[![Frameworks](https://img.shields.io/badge/NIST%20SP%20800--115-Pen%20Test-4A235A?style=flat-square)](https://csrc.nist.gov/publications/detail/sp/800-115/final)
+[![Frameworks](https://img.shields.io/badge/NIST%20AI%20RMF-AI%20100--1-4A235A?style=flat-square)](https://www.nist.gov/artificial-intelligence)
+[![Frameworks](https://img.shields.io/badge/NIST%20SP%20800--115-Pen%20Test-2E4799?style=flat-square)](https://csrc.nist.gov/publications/detail/sp/800-115/final)
 [![Frameworks](https://img.shields.io/badge/HIPAA-Security%20Rule-C0392B?style=flat-square)](https://www.hhs.gov/hipaa)
+[![Frameworks](https://img.shields.io/badge/CIS%20Controls-v8-D35400?style=flat-square)](https://www.cisecurity.org/controls)
 
 ---
 
 ## 👋 About This Portfolio
 
-My name is **Tamia Williams**. I am a CySA+ certified cybersecurity professional with a Master of Science in Cybersecurity and Information Assurance, actively pursuing roles in GRC, risk management, compliance, and security governance.
+My name is **Tamia Williams**. I am a CySA+ and PenTest+ certified cybersecurity professional with a Master of Science in Cybersecurity and Information Assurance, actively pursuing roles in GRC, risk management, compliance, and AI governance.
 
-This repository contains completed GRC case studies demonstrating my ability to assess security environments, identify control gaps, apply federal and industry frameworks, and produce professional remediation documentation — the kind of work GRC analysts deliver during audits, compliance reviews, and risk assessments.
+This repository contains completed GRC case studies demonstrating my ability to assess security environments, identify control gaps, apply federal and industry frameworks, and produce professional remediation documentation — the kind of work GRC analysts deliver during audits, compliance reviews, risk assessments, and AI governance engagements.
 
 **Certifications:** ISC² Certified in Cybersecurity (CC) | CompTIA CySA+ | CompTIA PenTest+
 
@@ -32,6 +33,7 @@ This repository contains completed GRC case studies demonstrating my ability to 
 | 01 | Healthcare Security Evaluation & Remediation | NIST SP 800-53, FISMA, PCI DSS | [📄 View PDF](GRC_Portfolio_Security_Evaluation_Report.pdf) |
 | 02 | Network Merger & Secure Design Plan | NIST SP 800-53, HIPAA, GDPR | [📄 View PDF](GRC_Portfolio_Network_Merger_Security_Plan.pdf) |
 | 03 | Penetration Test Engagement Plan Review | NIST SP 800-115, HIPAA, PTES | [📄 View PDF](GRC_Portfolio_PenTest_Engagement_Review.pdf) |
+| 04 | AI Governance Risk Assessment | NIST AI RMF, NYC LL144, EEOC | [📄 View PDF](GRC_Portfolio_AI_Risk_Assessment.pdf) |
 
 ---
 
@@ -141,13 +143,49 @@ A regional medical center preparing to deploy a new patient records system hired
 
 ---
 
+## 📋 Case Study 04 — AI Governance Risk Assessment
+
+### Scenario
+An HR technology company is deploying an AI-powered resume screening tool that automatically filters job applications before human review. As the AI GRC analyst, I evaluated the organization's AI governance posture against the NIST AI Risk Management Framework (AI RMF, NIST AI 100-1), identified risks across bias, transparency, data privacy, model security, and regulatory compliance — and delivered a prioritized remediation roadmap including immediate suspension of AI screening until a bias audit is completed.
+
+### Deliverables
+| File | |
+|------|-|
+| [GRC_Portfolio_AI_Risk_Assessment.pdf](GRC_Portfolio_AI_Risk_Assessment.pdf) | 📄 View in browser |
+| [GRC_Portfolio_AI_Risk_Assessment.docx](GRC_Portfolio_AI_Risk_Assessment.docx) | ⬇️ Download Word version |
+
+### What This Demonstrates
+- Applied NIST AI RMF (Govern, Map, Measure, Manage) to a real-world AI hiring tool scenario
+- Identified 8 AI-specific risks including algorithmic bias, model drift, adversarial inputs, and third-party vendor exposure
+- Conducted gap analysis across 8 NIST AI RMF subcategories — all rated Critical or High
+- Delivered 10-action remediation roadmap across 3 phases with owners and timelines
+- Mapped regulatory exposure to NYC Local Law 144, EEOC guidelines, Colorado AI Act, and Illinois AI Act
+- Recommended immediate halt to AI screening pending independent bias audit
+
+### Frameworks Applied
+`NIST AI RMF (AI 100-1)` `NIST SP 800-53` `NYC Local Law 144` `EEOC AI Guidelines` `Colorado AI Act` `Illinois AI Video Interview Act`
+
+### Key Findings
+
+| ID | Category | Risk | Score | Priority |
+|----|----------|------|-------|---------|
+| AIR-001 | Bias & Fairness | Algorithmic bias producing disparate outcomes for protected classes | 20 — Critical | 🔴 Immediate |
+| AIR-008 | Legal & Regulatory | Non-compliant with NYC Local Law 144 bias audit requirements | 20 — Critical | 🔴 Immediate |
+| AIR-003 | Data Privacy | Candidate PII processed without consent or retention controls | 15 — Critical | 🔴 Immediate |
+| AIR-002 | Transparency | No explainability mechanism for AI rejection decisions | 16 — High | 🟠 30-60 days |
+| AIR-005 | Accountability | No human oversight or appeal process for AI decisions | 12 — High | 🟠 30-60 days |
+| AIR-007 | Third-Party Risk | AI vendor lacks contractual governance or audit rights | 12 — High | 🟠 30-60 days |
+
+---
+
 ## 🛠️ Skills Demonstrated Across Portfolio
 
 ```
-Risk Assessment & Rating    │ NIST RMF              │ Control Assessment      │ POA&M Development
+Risk Assessment & Rating    │ NIST RMF              │ AI Risk Management      │ POA&M Development
 Network Security Design     │ Vulnerability Analysis │ Pen Test Methodology    │ Executive Reporting
 Security Policy Writing     │ PCI DSS                │ HIPAA Compliance        │ Findings Register
-Defense-in-Depth            │ OSI / TCP-IP           │ Rules of Engagement     │ ePHI Data Handling
+Defense-in-Depth            │ OSI / TCP-IP           │ Rules of Engagement     │ AI Governance
+Algorithmic Bias Analysis   │ NIST AI RMF            │ Regulatory Compliance   │ ePHI Data Handling
 ```
 
 ---
@@ -156,9 +194,9 @@ Defense-in-Depth            │ OSI / TCP-IP           │ Rules of Engagement  
 
 | Planned Case Study | Frameworks | Status |
 |-------------------|------------|--------|
-| 04 — Incident Response Plan | NIST SP 800-61, SANS IR Framework | 📋 Planned |
 | 05 — Vendor / Third-Party Risk Assessment | NIST SP 800-161, SOC 2 | 📋 Planned |
 | 06 — Cloud Security Gap Analysis | NIST CSF, CSA CCM | 📋 Planned |
+| 07 — Incident Response Plan | NIST SP 800-61, SANS IR Framework | 📋 Planned |
 
 ---
 
